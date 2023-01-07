@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="555.069 ns"></ZoomEndTime>
+      <Cursor1Time time="110.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="210"></NameColumnWidth>
+      <ValueColumnWidth column_width="89"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/tb/machine_code" type="array">
+      <obj_property name="ElementShortName">machine_code[63:0]</obj_property>
+      <obj_property name="ObjectShortName">machine_code[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/flag_cmp" type="array">
+      <obj_property name="ElementShortName">flag_cmp[2:0]</obj_property>
+      <obj_property name="ObjectShortName">flag_cmp[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/regis" type="array">
+      <obj_property name="ElementShortName">regis[0:3][7:0]</obj_property>
+      <obj_property name="ObjectShortName">regis[0:3][7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/DUT/M1/memory_bank" type="array">
+      <obj_property name="ElementShortName">memory_bank[15:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">memory_bank[15:0][7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/prgm_cnt" type="array">
+      <obj_property name="ElementShortName">prgm_cnt[3:0]</obj_property>
+      <obj_property name="ObjectShortName">prgm_cnt[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/DUT/I1/instruction_needed" type="array">
+      <obj_property name="ElementShortName">instruction_needed[7:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_needed[7:0]</obj_property>
+   </wvobject>
+</wave_config>
